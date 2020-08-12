@@ -1,0 +1,35 @@
+This is a basic GitHub Tutorial
+------------------------------------------------------
+Instructions
+
+-Follow the numbered instructions step by step to make your first Commit
+-Lines with ** and anything following them are extra credit and you don't need to follow them
+  they are meant to teach you some basic terminal commands
+
+------------------------------------------------------
+1.Create a GitHub Account
+  Go to github.com and create your account
+
+------------------------------------------------------
+2.Install git on your computer:
+  Windows/Linux/MacOS go to https://git-scm.com/downloads
+    -If link does not work type git into search engine and click on the git-scm.com link and go to downloads
+    -Follow the download instructions and get to git installed and the git-bash application as well where you can enter the command line Commands
+
+------------------------------------------------------
+3.Create a folder/Directory where you can store your git repositories
+  -I suggest calling it GitRepos
+
+**Create the folder/directory usinf Terminal
+  Open the bash terminal or your systems command prompt/Terminal type the following
+  cd                  -Using this command by itself changes current directory to your default user directory
+  ls -l               -Shows you all the items in your current Directory the -l option list them neatly
+  mkdir GitReops      -Makes the GitReops folder/directory in that directory
+  ls -l               -Compare this list to the previous one your GitRepos folder/directory should be here now
+  cd ./GitRepos       -moves you into the folder/directory you just created
+  pwd                 -prints out what directory your in it should have a path and end with /GitRepos
+------------------------------------------------------
+4.Getting the Repository from GitHub
+  Now go to your command terminal if not already in it.
+    -in terminal or bash navigate to the directory where your Git repositories are going to be stored using the cd command
+    -if you followed the extra credit portion above you should already be in that directory

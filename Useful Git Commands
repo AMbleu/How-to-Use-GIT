@@ -1,5 +1,5 @@
 Useful Git Commands
-
+------------------------------------------------------
 git init
   -Initializes a git Repository(Locally)
   -Must be in the directory you want to make a Repository
