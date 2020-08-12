@@ -1,0 +1,30 @@
+Useful Git Commands
+
+git init
+  -Initializes a git Repository(Locally)
+  -Must be in the directory you want to make a Repository
+  -This command is not necessary when using GitHub, because project will have already been created/Initialized
+
+git clone -Link to GitHub Repository-
+  -Copies the GitHub repository and files onto your local computer
+  -Must be in directory where you want to store the files
+  -Use this to begin working with GitHub
+
+git add -File to be added-
+  -Adds files to the staging area
+  -This command must be run before committing because the commit command will create commit commits the files in the staging area
+  -Options for add
+    -A  :adds all the files
+
+git commit
+  -Saves the changes you made onto the local Git repository
+  -You must add the files to the workspace before committing
+  -Options
+    -m  :Creates a message that explains what was committed
+    -a  :Chooses all files in the staging area
+
+git push
+  -Sends your committed changes to GitHub
+
+git pull
+  -Gets the most updated version of the files from GitHub
