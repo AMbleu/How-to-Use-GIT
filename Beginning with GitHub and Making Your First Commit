@@ -50,11 +50,16 @@ Instructions
 ---------------------------------------------
 6.Editing a file in the repository
   Navigate to the folder called /GitRepos/How-To-Use-Git in here will be the files you downloaded from GitHub using the clone command.
-  Open the file called "GitHub Commit Example" and follow the instructions and place your name in the file save and exit
+  Open the file called "GitHub Commit Example" and follow the instructions and place your name in the file save and exit.
 
-  **Editing File in Terminal
+**Editing File in Terminal
+  In the terminal be in the /GitRepos/How-To-Use-Git directory in your terminal then type:
+  pwd                                 -Print out what directory you are in, make sure your in the /GitRepos/How-To-Use-Git Directory
+  ls -l                               -shows what files are in the Directory
+  nano 'GitHub Commit Example'        -Opens the terminal text editor, write your name in the file
+      (Press crtl+x)                  -Press crtl+x to exit the termianl text editor
+      (Press y)                       -Press y when it asks if you want to save your changes and it will automatically exit after
 
-
-
+---------------------------------------------
 7.Adding Files to Staging Area
   The
