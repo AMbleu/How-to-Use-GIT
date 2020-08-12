@@ -3,6 +3,7 @@ This is a basic GitHub Tutorial
 Instructions
 
 -Follow the numbered instructions step by step to make your first Commit
+-try to type as many of the commands as possible instead of simply copy and pasting, practice makes perfect
 -Lines with ** and anything following them are extra credit and you don't need to follow them
   they are meant to teach you some basic terminal commands
 
@@ -28,8 +29,22 @@ Instructions
   ls -l               -Compare this list to the previous one your GitRepos folder/directory should be here now
   cd ./GitRepos       -moves you into the folder/directory you just created
   pwd                 -prints out what directory your in it should have a path and end with /GitRepos
+
 ------------------------------------------------------
 4.Getting the Repository from GitHub
   Now go to your command terminal if not already in it.
     -in terminal or bash navigate to the directory where your Git repositories are going to be stored using the cd command
     -if you followed the extra credit portion above you should already be in that directory
+
+  Type the following into the terminal to get the a repository:
+    git clone https://github.com/AMbleu/How-to-Use-GIT.git                -this git clone command is how you download git repositories to edit or simply have a copy
+
+------------------------------------------------------
+5.Setting up your identity in git to make edits
+  When making changes(commits) you need to have a username and email so git knows who made the changes and to tell git who you are do the following
+
+  Type the following commands to set your Name and Email
+    git user.name "Your Name"             -Replace the Your Name in the quotation names with your actual name you want git to know you as
+    git user.email "Email@website.com"    -Make this email the same as the email linked to your GitHub profile.
+------------------------------------------------------
+6.  
