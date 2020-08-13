@@ -56,10 +56,25 @@ Instructions
   In the terminal be in the /GitRepos/How-To-Use-Git directory in your terminal then type:
   pwd                                 -Print out what directory you are in, make sure your in the /GitRepos/How-To-Use-Git Directory
   ls -l                               -shows what files are in the Directory
-  nano 'GitHub Commit Example'        -Opens the terminal text editor, write your name in the file
-      (Press crtl+x)                  -Press crtl+x to exit the termianl text editor
+  nano 'GitHub Commit Example'        -Opens the terminal text editor. the '' are there because the file name contains spaces, write your name in the file
+      (Press crtl+x)                  -Press crtl+x to exit the terminal text editor
       (Press y)                       -Press y when it asks if you want to save your changes and it will automatically exit after
 
 ---------------------------------------------
 7.Adding Files to Staging Area
-  The
+  Now that the edits have been made to the file "GitHub Commit Example" its time to upload the changes to GitHub.
+  To do this you have to add the files to the staging area where they will stay until your ready to upload them to GitHub
+
+  To load the file you type:
+    git add 'GitHub Commit Example'                        -moves all files into the Staging Area
+
+---------------------------------------------
+8.Committing the changes into GitHub
+  Now that you have finalized your changes by adding them to the Staging area it is time to upload them to GitHub
+
+  To upload the files you have to make a commit:
+    git commit origin master -m "What Edits you made"         -This send the changes you made up to GitHub
+
+---------------------------------------------
+9.Congratulations That is the end to all the basics
+  Now that you have finished all the tutorial, practice what you have just learned by opening the "I Know Git & GitHub" add your name and upload it to Git GOODLUCK!
