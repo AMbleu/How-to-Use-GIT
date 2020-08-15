@@ -27,7 +27,7 @@ Instructions
   cd                  -Using this command by itself changes current directory to your default user directory
   pwd                 -Prints the directory you are working in
   ls -l               -Shows you all the items in your current Directory the -l option list them neatly
-  mkdir GitReops      -Makes the GitReops folder/directory in that directory
+  mkdir GitRepos      -Makes the GitReops folder/directory in that directory
   ls -l               -Compare this list to the previous one your GitRepos folder/directory should be here now
   cd ./GitRepos       -moves you into the folder/directory you just created
   pwd                 -prints out what directory your in it should have a path and end with /GitRepos
