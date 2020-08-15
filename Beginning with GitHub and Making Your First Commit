@@ -1,9 +1,10 @@
-This is a basic GitHub Tutorial
+
+This is a Tutorial to Learn the GitHub Basics
 ---------------------------------------------
 Instructions
 
 -Follow the numbered instructions step by step to make your first Commit
--try to type as many of the commands as possible instead of simply copy and pasting, practice makes perfect
+-Try to type as many of the commands as possible instead of simply copy and pasting, practice makes perfect
 -Lines with ** and anything following them are extra credit and you don't need to follow them
  they are meant to teach you some basic terminal commands
 
@@ -22,8 +23,9 @@ Instructions
   -I suggest calling it GitRepos
 
 **Create the folder/directory using Terminal
-  Open the bash terminal or your systems command prompt/Terminal type the following
+  Open your systems command prompt/Terminal type the following:
   cd                  -Using this command by itself changes current directory to your default user directory
+  pwd                 -Prints the directory you are working in
   ls -l               -Shows you all the items in your current Directory the -l option list them neatly
   mkdir GitReops      -Makes the GitReops folder/directory in that directory
   ls -l               -Compare this list to the previous one your GitRepos folder/directory should be here now
@@ -33,8 +35,8 @@ Instructions
 ---------------------------------------------
 4.Getting the Repository from GitHub
   Now go to your command terminal if not already in it.
-    -in terminal or bash navigate to the directory where your Git repositories are going to be stored using the cd command
-    -if you followed the extra credit portion above you should already be in that directory
+    -In terminal navigate to the directory where your Git repositories are going to be stored using the cd command
+    -If you followed the extra credit portion above you should already be in that directory
 
   Type the following into the terminal to get the a repository:
     git clone https://github.com/AMbleu/How-to-Use-GIT.git                -this git clone command is how you download git repositories to edit or simply have a copy
@@ -44,7 +46,7 @@ Instructions
   When making changes(commits) you need to have a username and email so git knows who made the changes and to tell git who you are do the following
 
   Type the following commands to set your Name and Email
-    git user.name "Your Name"             -Replace the Your Name in the quotation names with your actual name you want git to know you as
+    git user.name "Your Name"             -Replace the Your Name in the quotation names with the name you want git to know you as
     git user.email "Email@website.com"    -Make this email the same as the email linked to your GitHub profile.
 
 ---------------------------------------------
@@ -53,10 +55,10 @@ Instructions
   Open the file called "GitHub Commit Example" and follow the instructions and place your name in the file save and exit.
 
 **Editing File in Terminal
-  In the terminal be in the /GitRepos/How-To-Use-Git directory in your terminal then type:
+  In the terminal make sure you are in the /GitRepos/How-To-Use-Git directory in your terminal then type:
   pwd                                 -Print out what directory you are in, make sure your in the /GitRepos/How-To-Use-Git Directory
   ls -l                               -shows what files are in the Directory
-  nano 'GitHub Commit Example'        -Opens the terminal text editor. the '' are there because the file name contains spaces, write your name in the file
+  nano 'GitHub Commit Example'        -Opens the terminal text editor, the ' ' are there because the file name contains spaces, write your name in the file
       (Press crtl+x)                  -Press crtl+x to exit the terminal text editor
       (Press y)                       -Press y when it asks if you want to save your changes and it will automatically exit after
 
@@ -73,7 +75,7 @@ Instructions
   Now that you have finalized your changes by adding them to the Staging area it is time to upload them to GitHub
 
   To upload the files you have to make a commit:
-    git commit origin master -m "What Edits you made"         -This send the changes you made up to GitHub
+    git commit origin master -m "Edits you made"         -This send the changes you made up to GitHub, inside the " " type a detailed explanation of the edits you made
 
 ---------------------------------------------
 9.Congratulations That is the end to all the basics
