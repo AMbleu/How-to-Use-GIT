@@ -28,3 +28,9 @@ git push
 
 git pull
   -Gets the most updated version of the files from GitHub
+
+git config
+  -shows how your git is configures incuding the name and email Git is using
+
+git status
+  -shows user if there is anything that has been edited or needs to be committed
