@@ -13,24 +13,31 @@ git clone -Link to GitHub Repository-
 git add -File to be added-
   -Adds files to the staging area
   -This command must be run before committing because the commit command will create commit commits the files in the staging area
-  -Options for add
+  -Options:
     -A  :adds all the files
 
 git commit
   -Saves the changes you made onto the local Git repository
   -You must add the files to the workspace before committing
-  -Options
+  -Options:
     -m  :Creates a message that explains what was committed
     -a  :Chooses all files in the staging area
 
 git push
   -Sends your committed changes to GitHub
+  -Option:
+    git push origin master
 
 git pull
   -Gets the most updated version of the files from GitHub
-
+  
 git config
   -shows how your git is configures incuding the name and email Git is using
 
 git status
   -shows user if there is anything that has been edited or needs to be committed
+git branch
+  -Cam be used to check what branch you are on, or if you put a name after branch it can be used to create a new branch
+
+git chekcout
+  -Used to switch between branches between branches, use the git branch command to check what branch you are on before and after switching
