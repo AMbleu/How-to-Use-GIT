@@ -30,14 +30,22 @@ git push
 
 git pull
   -Gets the most updated version of the files from GitHub
-  
+
 git config
-  -shows how your git is configures incuding the name and email Git is using
+  -shows how your git is configures including the name and email Git is using
 
 git status
   -shows user if there is anything that has been edited or needs to be committed
-git branch
-  -Cam be used to check what branch you are on, or if you put a name after branch it can be used to create a new branch
 
-git chekcout
-  -Used to switch between branches between branches, use the git branch command to check what branch you are on before and after switching
+git log
+  -shows a log of what commits have been made
+
+git branch
+  -this command lists all the branches you currently have in your git repository
+  -Option
+    Adding text to the end of this command creates a new branch with that text.
+
+git checkout
+  -Using this command you can switch between branches so after you create a branch you can move into in using checkout
+  -This command can also be used to return to previous committed changes using the hash number of the commit after checkout
+  -The hash number can be found when you use the log command

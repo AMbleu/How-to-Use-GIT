@@ -65,19 +65,24 @@ Instructions
 
 ---------------------------------------------
 7.Adding Files to Staging Area
-  Now that the edits have been made to the file "GitHub Commit Example" its time to upload the changes to GitHub.
+  The edits have been made to the file "GitHub Commit Example" its time to upload the changes to GitHub.
   To do this you have to add the files to the staging area where they will stay until your ready to upload them to GitHub
 
   To load the file you type:
     git add 'GitHub Commit Example'                        -moves all files into the Staging Area
 
 ---------------------------------------------
-8.Committing the changes into GitHub
-  Now that you have finalized your changes by adding them to the Staging area it is time to upload them to GitHub
+8.Committing the changes to Your Local System
+  Now that you have finalized your changes by adding them to the Staging area, you must now finalize the changes by saving them onto your local repository
 
-  To upload the files you have to make a commit:
+  To upload the files you have to make a commit first:
     git commit origin master -m "Edits you made"         -This send the changes you made up to GitHub, inside the " " type a detailed explanation of the edits you made
 
 ---------------------------------------------
-9.Congratulations That is the end to all the basics
+9.Pushing Files to GitHub
+  The changes you made now have a record in your local repository and will be able to revert to those changes if needed in the future.
+  To upload
+
+---------------------------------------------
+10.Congratulations That is the end to all the basics
   Now that you have finished all the tutorial, practice what you have just learned by opening the "I Know Git & GitHub" add your name and upload it to Git GOODLUCK!
