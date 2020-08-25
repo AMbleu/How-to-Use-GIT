@@ -7,4 +7,4 @@
   <dd>-Any questions or concerns please don't hesitate to email me at Alejandro@AMBleu.com</dd>
 </dl>
 
-<h3 style="color:red;"">This Guide is still in progress Check Back for the completed Guide</h3>
+<h3>This Guide is still in progress Check Back for the completed Guide</h3>
