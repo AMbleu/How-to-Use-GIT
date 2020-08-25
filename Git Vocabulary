@@ -1,4 +1,43 @@
+GitHub Vocabulary
+-------------------------------------------------------------------------------
+Branch:
+  -A branch is a path that stores all the commits that have been made. The main purpose of branches is to make them when you want to diverge from the main code and try some things out. If the changes you made work out and you want to add to the master branch then you make a pull request to merge back into master branch
+
+Commit:
+  -This makes a log of the changes currently in the staging area. Any commit can be accessed later using the checkout command along with the commit hash
+
+Commit Hash:
+  -Each Commit has a unique hash used to identify it for future, commits and their hashes can be found using the log command
+
+Conflicts:
+  -When merging and changes have been made to the same file on the same line conflicts arise. Don't panic these are normal and should be resolved according to whomever is in charge of the master branch.
+
+Contributor:
+  -A contributor is someone who has access to the repository. They can make changes and commits to the code. Only make people who you trust into contributors.
+
+Fork
+  -This is done in GitHub and it creates a copy of another users repository onto your user account. This is used when you want to be able to make commits and upload them to GitHub but do not have access to the original repository. Changes made in a fork repository do not show up in the main repository so if you want to contribute to the original repository you must create a pull request so the original owner of the pull request can merge your changes into theirs.
+
 Git:
-  -A VCS (Version Control Software) used to work collaboratively with others
+  -A VCS (Version Control Software) used to work collaboratively with others.
+
+GitHub:
+  -A web platform that takes advantage of Git to make an online storage area where you can use Git to work with people online. GitHub has all the features of Git plus additional resources to take advantage of being online.
+
+Master Branch:
+  -This is the branch where all the main code is stored this should be the official branch and access to should be limited as to not allow everyone to edit them and possibly cause errors. Changes to master branch from others should be made in the form of pull request and the changes in the pull request should have a unique branch to that contributor to avoid any accidental changes to master branch during merging of pull request.
+
+Merge:
+  -Merging the same file from different branches or a fork and merges them together, this is the main way to work cooperatively with others. When merging often times, when communication is not great, you will get conflicts. it is up to the main contributors to resolve these conflicts.
+
+Log:
+  -A record of all your commits, commit hashes can be found here.
+
+Pull Request:
+  -These are made when you want someone to look over your code before merging it to the main branch or another branch
+
+Staging Area:
+  -This is where files are moved before committing them
+
 Terminal:
   -A program on operating Systems that allows you to access the command line
