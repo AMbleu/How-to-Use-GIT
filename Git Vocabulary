@@ -37,7 +37,7 @@ Pull Request:
   -These are made when you want someone to look over your code before merging it to the main branch or another branch
 
 Staging Area:
-  -This is where files are moved before committing them
+  -This is where files are moved before committing. Only files in staging area can be commited
 
 Terminal:
   -A program on operating Systems that allows you to access the command line
