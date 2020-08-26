@@ -40,4 +40,4 @@ Staging Area:
   -This is where files are moved before committing. Only files in staging area can be commited
 
 Terminal:
-  -A program on operating Systems that allows you to access the command line
+  -A program on operating Systems that allows you to enter commands through a command line
