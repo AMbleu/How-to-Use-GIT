@@ -36,8 +36,11 @@ Log:
 Pull Request:
   -These are made when you want someone to look over your code before merging it to the main branch or another branch
 
+Repository
+  -It is like a folder on your local computer except these folder have a hidden Git file in them which is what allows them to track changes.
+
 Staging Area:
-  -This is where files are moved before committing. Only files in staging area can be commited
+  -This is where files are moved before committing. Only files in staging area can be committed
 
 Terminal:
   -A program on operating Systems that allows you to enter commands through a command line
